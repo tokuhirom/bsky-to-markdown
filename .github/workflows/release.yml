@@ -2,8 +2,6 @@ name: Build and Release
 
 on:
   push:
-    tags:
-      - 'v*'
 
 permissions:
   contents: write
@@ -31,5 +29,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add -f dist/main.js dist/main.js.map dist/main.d.ts
-          git commit -m "Add built files for release"
+          git commit -m "Add built files"
           git push origin HEAD
