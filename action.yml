@@ -9,5 +9,5 @@ outputs:
   time:
     description: "The time when the greeting was sent"
 runs:
-  using: "node22"
+  using: "node20"
   main: "dist/index.js"
