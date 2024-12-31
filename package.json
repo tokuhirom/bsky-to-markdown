@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
+    "prepare": "husky install",
     "build": "tsup",
     "test": "vitest run",
     "dev": "vitest"
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/tokuhirom/rss-to-markdown#readme",
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "husky": "^9.1.7",
     "tsup": "^8.3.5",
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
