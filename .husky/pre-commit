@@ -1,2 +1,4 @@
 npm test
 npm run build && git add -f dist/main.js dist/main.js.map
+
+npx prettier . --write
