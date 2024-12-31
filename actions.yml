@@ -1,0 +1,13 @@
+name: "Greet Action"
+description: "Prints a greeting and the current time"
+inputs:
+  who-to-greet:
+    description: "Who to greet"
+    required: true
+    default: "World"
+outputs:
+  time:
+    description: "The time when the greeting was sent"
+runs:
+  using: "node22"
+  main: "dist/index.js"
