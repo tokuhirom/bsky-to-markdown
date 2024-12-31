@@ -5,7 +5,7 @@
 	"main": "src/main.ts",
 	"scripts": {
 		"prepare": "husky",
-		"build": "rollup -c",
+		"build": "esbuild --platform=node --bundle src/main.ts --outdir=dist --sourcemap",
 		"test": "vitest run",
 		"dev": "vitest"
 	},
@@ -24,6 +24,7 @@
 		"@rollup/plugin-node-resolve": "^16.0.0",
 		"@rollup/plugin-typescript": "^12.1.2",
 		"@types/node": "^22.10.2",
+		"esbuild": "^0.24.2",
 		"husky": "^9.1.7",
 		"prettier": "^3.4.2",
 		"rollup": "^4.29.1",
