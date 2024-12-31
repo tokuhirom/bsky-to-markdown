@@ -1,6 +1,12 @@
 # rss-to-markdown
 
 
+## Development
+
+    npm run prepare
+
+to install the husky commit hook.
+
 ## Relese
 
 Create tag on my local machine, and push forcibly.
