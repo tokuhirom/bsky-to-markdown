@@ -1,6 +1,5 @@
 # rss-to-markdown
 
-
 ## Development
 
     npm run prepare

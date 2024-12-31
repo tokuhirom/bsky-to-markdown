@@ -1,13 +1,13 @@
-name: "Greet Action"
-description: "Prints a greeting and the current time"
+name: 'Greet Action'
+description: 'Prints a greeting and the current time'
 inputs:
   who-to-greet:
-    description: "Who to greet"
+    description: 'Who to greet'
     required: true
-    default: "World"
+    default: 'World'
 outputs:
   time:
-    description: "The time when the greeting was sent"
+    description: 'The time when the greeting was sent'
 runs:
-  using: "node20"
-  main: "dist/main.js"
+  using: 'node20'
+  main: 'dist/main.js'

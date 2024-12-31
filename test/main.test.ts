@@ -5,13 +5,13 @@ import { run } from '../src/main';
 vi.mock('@actions/core');
 
 describe('Greet Action', () => {
-  it('should greet the user', async () => {
-    process.env['INPUT_WHO-TO-GREET'] = 'TestUser';
+	it('should greet the user', async () => {
+		process.env['INPUT_WHO-TO-GREET'] = 'TestUser';
 
-    const setOutputMock = vi.spyOn(core, 'setOutput');
+		const setOutputMock = vi.spyOn(core, 'setOutput');
 
-    await run();
+		await run();
 
-    expect(setOutputMock).toHaveBeenCalledWith('time', expect.any(String));
-  });
+		expect(setOutputMock).toHaveBeenCalledWith('time', expect.any(String));
+	});
 });
