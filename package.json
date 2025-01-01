@@ -24,6 +24,7 @@
 		"@rollup/plugin-node-resolve": "^16.0.0",
 		"@rollup/plugin-typescript": "^12.1.2",
 		"@types/node": "^22.10.2",
+		"@types/strftime": "^0.9.8",
 		"esbuild": "^0.24.2",
 		"husky": "^9.1.7",
 		"prettier": "^3.4.2",
@@ -34,6 +35,8 @@
 	},
 	"dependencies": {
 		"@actions/core": "^1.11.1",
-		"@actions/github": "^6.0.0"
+		"@actions/github": "^6.0.0",
+		"rss-parser": "^3.13.0",
+		"strftime": "^0.10.3"
 	}
 }
