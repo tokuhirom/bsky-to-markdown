@@ -30,7 +30,7 @@
 		"vitest": "^4.0.0"
 	},
 	"dependencies": {
-		"@actions/core": "^1.11.1",
+		"@actions/core": "^2.0.0",
 		"@actions/github": "^6.0.0",
 		"rss-parser": "^3.13.0",
 		"strftime": "^0.10.3"
