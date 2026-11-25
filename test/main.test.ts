@@ -22,6 +22,6 @@ describe('Greet Action', () => {
 		// expect(setOutputMock).toHaveBeenCalledWith('time', expect.any(String));
 
 		// Clean up the temporary directory after the test
-		fs.rmdirSync(tempDir, { recursive: true });
+		fs.rmSync(tempDir, { recursive: true, force: true });
 	});
 });
